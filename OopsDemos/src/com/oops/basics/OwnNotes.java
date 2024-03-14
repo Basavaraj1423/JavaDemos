@@ -39,27 +39,17 @@ way 3:
  */
 
 
-class ABC {
-    int a = 10;
-
-   public ABC(String s,int age, float c){
-       int b=20;
-       System.out.println(a+b);
-   }
-
-
-   public void manju(){
-
-   }
-
-
-}
+import java.util.HashSet;
 
 public class OwnNotes {
 
     public static void main(String[] args) {
-        ABC abc = new ABC("Hello World",10,10.4f);
 
+        HashSet <String> hashSet = new HashSet();
+        hashSet.add("dd");
+        hashSet.add(" ");
+
+        System.out.println(hashSet);
 
     }
 }

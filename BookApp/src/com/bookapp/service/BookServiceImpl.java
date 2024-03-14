@@ -81,7 +81,6 @@ public class BookServiceImpl implements IBookService {
         List<Book> books = BookDetails.showDetails();
         for (Book newBook : books) {
             if (newBook.getBookId() == bookId) {
-
                 return newBook;
             }
         }
